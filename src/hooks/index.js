@@ -1,4 +1,5 @@
+import useToggle from "hooks/useToggle";
 import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 
-export {useLocalStorage, useUpdateLogger}
+export {useToggle, useLocalStorage, useUpdateLogger}
