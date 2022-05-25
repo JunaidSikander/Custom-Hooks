@@ -1,4 +1,4 @@
-import {LocalStorageHook, ToggleComponent} from "components";
+import {LocalStorageHook, TimeoutComponent, ToggleComponent} from "components";
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
             <h1>Custom Hooks</h1>
             <LocalStorageHook/>
             <ToggleComponent/>
+            <TimeoutComponent/>
         </div>
     );
 }
