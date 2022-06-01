@@ -1,4 +1,10 @@
-import {DebounceComponent, LocalStorageHook, TimeoutComponent, ToggleComponent} from "components";
+import {
+    DebounceComponent,
+    LocalStorageHook,
+    TimeoutComponent,
+    ToggleComponent,
+    UpdateEffectComponent,
+} from "components";
 
 function App() {
 
@@ -8,7 +14,8 @@ function App() {
             {/*<LocalStorageHook/>*/}
             {/*<ToggleComponent/>*/}
             {/*<TimeoutComponent/>*/}
-            <DebounceComponent/>
+            {/*<DebounceComponent/>*/}
+            <UpdateEffectComponent/>
         </div>
     );
 }
