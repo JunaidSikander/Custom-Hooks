@@ -1,4 +1,5 @@
 import {
+    ArrayComponent,
     DebounceComponent,
     LocalStorageHook,
     TimeoutComponent,
@@ -10,12 +11,13 @@ function App() {
 
     return (
         <div style={styles}>
-            <h1>Custom Hooks</h1>
+            {/*<h1>Custom Hooks</h1>*/}
             {/*<LocalStorageHook/>*/}
             {/*<ToggleComponent/>*/}
             {/*<TimeoutComponent/>*/}
             {/*<DebounceComponent/>*/}
-            <UpdateEffectComponent/>
+            {/*<UpdateEffectComponent/>*/}
+            <ArrayComponent/>
         </div>
     );
 }
