@@ -1,3 +1,4 @@
+import StorageComponent from "./StorageComponent";
 import ArrayComponent from "components/ArrayComponent";
 import ToggleComponent from "components/ToggleComponent";
 import LocalStorageHook from "components/LocalStorageHook";
@@ -13,6 +14,7 @@ export {
     ToggleComponent,
     LocalStorageHook,
     TimeoutComponent,
+    StorageComponent,
     DebounceComponent,
     PreviousComponent,
     UpdateEffectComponent,
