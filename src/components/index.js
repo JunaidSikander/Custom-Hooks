@@ -1,3 +1,4 @@
+import AsyncComponent from "./AsyncComponent";
 import StorageComponent from "./StorageComponent";
 import ArrayComponent from "components/ArrayComponent";
 import ToggleComponent from "components/ToggleComponent";
@@ -10,6 +11,7 @@ import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 
 
 export {
+    AsyncComponent,
     ArrayComponent,
     ToggleComponent,
     LocalStorageHook,

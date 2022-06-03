@@ -1,5 +1,5 @@
 import {
-    ArrayComponent,
+    ArrayComponent, AsyncComponent,
     DebounceComponent,
     LocalStorageHook, PreviousComponent, StateWithHistoryComponent, StorageComponent,
     TimeoutComponent,
@@ -20,7 +20,8 @@ function App() {
             {/*<ArrayComponent/>*/}
             {/*<PreviousComponent/>*/}
             {/*<StateWithHistoryComponent/>*/}
-            <StorageComponent/>
+            {/*<StorageComponent/>*/}
+            <AsyncComponent/>
         </div>
     );
 }

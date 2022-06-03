@@ -1,4 +1,5 @@
 import useArray from "hooks/useArray";
+import useAsync from "hooks/useAsync";
 import useToggle from "hooks/useToggle";
 import useTimeout from "hooks/useTimeout";
 import useDebounce from "hooks/useDebounce";
@@ -11,6 +12,7 @@ import useStateWithHistory from "hooks/useStateWithHistory";
 
 export {
     useArray,
+    useAsync,
     useToggle,
     useTimeout,
     useDebounce,
