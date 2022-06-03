@@ -1,7 +1,7 @@
 import {
     ArrayComponent,
     DebounceComponent,
-    LocalStorageHook, PreviousComponent,
+    LocalStorageHook, PreviousComponent, StateWithHistoryComponent,
     TimeoutComponent,
     ToggleComponent,
     UpdateEffectComponent,
@@ -18,7 +18,8 @@ function App() {
             {/*<DebounceComponent/>*/}
             {/*<UpdateEffectComponent/>*/}
             {/*<ArrayComponent/>*/}
-            <PreviousComponent/>
+            {/*<PreviousComponent/>*/}
+            <StateWithHistoryComponent/>
         </div>
     );
 }
