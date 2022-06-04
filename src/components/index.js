@@ -9,6 +9,7 @@ import TimeoutComponent from "components/TimeoutComponent";
 import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
+import EventListenerComponent from "components/EventListenerComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 
@@ -25,6 +26,7 @@ export {
     DebounceComponent,
     PreviousComponent,
     UpdateEffectComponent,
+    EventListenerComponent,
     StateWithHistoryComponent,
     DeepCompareEffectComponent,
 }
