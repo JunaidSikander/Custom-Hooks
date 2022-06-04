@@ -1,3 +1,4 @@
+import useSize from "hooks/useSize";
 import useArray from "hooks/useArray";
 import useAsync from "hooks/useAsync";
 import useFetch from "hooks/useFetch";
@@ -19,6 +20,7 @@ import useDeepCompareEffect from "hooks/useDeepCompareEffect";
 import useStateWithValidation from "hooks/useStateWithValidation";
 
 export {
+    useSize,
     useArray,
     useAsync,
     useFetch,

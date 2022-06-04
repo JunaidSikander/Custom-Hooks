@@ -8,7 +8,7 @@ import {
     LocalStorageHook, MediaQueryComponent,
     OnScreenComponent,
     PreviousComponent,
-    ScriptComponent,
+    ScriptComponent, SizeComponent,
     StateWithHistoryComponent, StateWithValidationComponent,
     StorageComponent,
     TimeoutComponent,
@@ -39,7 +39,8 @@ function App() {
             {/*<WindowSizeComponent/>*/}
             {/*<MediaQueryComponent/>*/}
             {/*<GeoLocationComponent/>*/}
-            <StateWithValidationComponent/>
+            {/*<StateWithValidationComponent/>*/}
+            <SizeComponent/>
         </div>
     );
 }

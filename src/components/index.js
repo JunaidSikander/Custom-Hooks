@@ -1,3 +1,4 @@
+import SizeComponent from "components/SizeComponent";
 import AsyncComponent from "components/AsyncComponent";
 import FetchComponent from "components/FetchComponent";
 import ArrayComponent from "components/ArrayComponent";
@@ -19,6 +20,7 @@ import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 import StateWithValidationComponent from "components/StateWithValidationComponent";
 
 export {
+    SizeComponent,
     AsyncComponent,
     ArrayComponent,
     FetchComponent,
