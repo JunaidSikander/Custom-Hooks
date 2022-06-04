@@ -1,6 +1,6 @@
 import {
     ArrayComponent, AsyncComponent,
-    DebounceComponent,
+    DebounceComponent, FetchComponent,
     LocalStorageHook, PreviousComponent, StateWithHistoryComponent, StorageComponent,
     TimeoutComponent,
     ToggleComponent,
@@ -21,7 +21,8 @@ function App() {
             {/*<PreviousComponent/>*/}
             {/*<StateWithHistoryComponent/>*/}
             {/*<StorageComponent/>*/}
-            <AsyncComponent/>
+            {/*<AsyncComponent/>*/}
+            <FetchComponent/>
         </div>
     );
 }
