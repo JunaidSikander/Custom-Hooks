@@ -16,6 +16,7 @@ import UpdateEffectComponent from "components/UpdateEffectComponent";
 import EventListenerComponent from "components/EventListenerComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
+import StateWithValidationComponent from "components/StateWithValidationComponent";
 
 export {
     AsyncComponent,
@@ -36,4 +37,5 @@ export {
     EventListenerComponent,
     StateWithHistoryComponent,
     DeepCompareEffectComponent,
+    StateWithValidationComponent
 }

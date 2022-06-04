@@ -9,7 +9,7 @@ import {
     OnScreenComponent,
     PreviousComponent,
     ScriptComponent,
-    StateWithHistoryComponent,
+    StateWithHistoryComponent, StateWithValidationComponent,
     StorageComponent,
     TimeoutComponent,
     ToggleComponent,
@@ -38,7 +38,8 @@ function App() {
             {/*<OnScreenComponent/>*/}
             {/*<WindowSizeComponent/>*/}
             {/*<MediaQueryComponent/>*/}
-            <GeoLocationComponent/>
+            {/*<GeoLocationComponent/>*/}
+            <StateWithValidationComponent/>
         </div>
     );
 }

@@ -16,6 +16,7 @@ import useUpdateEffect from "hooks/useUpdateEffect";
 import useEventListener from "hooks/useEventListener";
 import useStateWithHistory from "hooks/useStateWithHistory";
 import useDeepCompareEffect from "hooks/useDeepCompareEffect";
+import useStateWithValidation from "hooks/useStateWithValidation";
 
 export {
     useArray,
@@ -35,5 +36,6 @@ export {
     useUpdateEffect,
     useEventListener,
     useStateWithHistory,
-    useDeepCompareEffect
+    useDeepCompareEffect,
+    useStateWithValidation
 }
