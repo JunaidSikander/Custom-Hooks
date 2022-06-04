@@ -7,6 +7,7 @@ import useTimeout from "hooks/useTimeout";
 import useDebounce from "hooks/useDebounce";
 import usePrevious from "hooks/usePrevious";
 import useOnScreen from "hooks/useOnScreen";
+import useWindowSize from "hooks/useWindowSize";
 import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
@@ -24,6 +25,7 @@ export {
     useDebounce,
     usePrevious,
     useOnScreen,
+    useWindowSize,
     useLocalStorage,
     useUpdateLogger,
     useUpdateEffect,

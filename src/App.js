@@ -13,7 +13,7 @@ import {
     StorageComponent,
     TimeoutComponent,
     ToggleComponent,
-    UpdateEffectComponent,
+    UpdateEffectComponent, WindowSizeComponent,
 } from "components";
 
 function App() {
@@ -35,7 +35,8 @@ function App() {
             {/*<ScriptComponent/>*/}
             {/*<DeepCompareEffectComponent/>*/}
             {/*<EventListenerComponent/>*/}
-            <OnScreenComponent/>
+            {/*<OnScreenComponent/>*/}
+            <WindowSizeComponent/>
         </div>
     );
 }
