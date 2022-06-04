@@ -10,6 +10,7 @@ import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import OnScreenComponent from "components/OnScreenComponent";
 import WindowSizeComponent from "components/WindowSizeComponent";
+import MediaQueryComponent from "components/MediaQueryComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import EventListenerComponent from "components/EventListenerComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
@@ -29,6 +30,7 @@ export {
     PreviousComponent,
     OnScreenComponent,
     WindowSizeComponent,
+    MediaQueryComponent,
     UpdateEffectComponent,
     EventListenerComponent,
     StateWithHistoryComponent,

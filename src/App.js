@@ -5,7 +5,7 @@ import {
     DeepCompareEffectComponent,
     EventListenerComponent,
     FetchComponent,
-    LocalStorageHook,
+    LocalStorageHook, MediaQueryComponent,
     OnScreenComponent,
     PreviousComponent,
     ScriptComponent,
@@ -36,7 +36,8 @@ function App() {
             {/*<DeepCompareEffectComponent/>*/}
             {/*<EventListenerComponent/>*/}
             {/*<OnScreenComponent/>*/}
-            <WindowSizeComponent/>
+            {/*<WindowSizeComponent/>*/}
+            <MediaQueryComponent/>
         </div>
     );
 }
