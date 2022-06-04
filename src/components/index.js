@@ -10,6 +10,7 @@ import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
+import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 
 
 export {
@@ -24,5 +25,6 @@ export {
     DebounceComponent,
     PreviousComponent,
     UpdateEffectComponent,
-    StateWithHistoryComponent
+    StateWithHistoryComponent,
+    DeepCompareEffectComponent,
 }

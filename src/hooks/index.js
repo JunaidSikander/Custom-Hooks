@@ -10,6 +10,7 @@ import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
 import useStateWithHistory from "hooks/useStateWithHistory";
+import useDeepCompareEffect from "hooks/useDeepCompareEffect";
 
 
 export {
@@ -24,5 +25,6 @@ export {
     useLocalStorage,
     useUpdateLogger,
     useUpdateEffect,
-    useStateWithHistory
+    useStateWithHistory,
+    useDeepCompareEffect
 }
