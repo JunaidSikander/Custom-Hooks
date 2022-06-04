@@ -4,7 +4,7 @@ import {
     DebounceComponent,
     DeepCompareEffectComponent,
     EventListenerComponent,
-    FetchComponent,
+    FetchComponent, GeoLocationComponent,
     LocalStorageHook, MediaQueryComponent,
     OnScreenComponent,
     PreviousComponent,
@@ -37,7 +37,8 @@ function App() {
             {/*<EventListenerComponent/>*/}
             {/*<OnScreenComponent/>*/}
             {/*<WindowSizeComponent/>*/}
-            <MediaQueryComponent/>
+            {/*<MediaQueryComponent/>*/}
+            <GeoLocationComponent/>
         </div>
     );
 }

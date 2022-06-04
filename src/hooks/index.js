@@ -9,6 +9,7 @@ import usePrevious from "hooks/usePrevious";
 import useOnScreen from "hooks/useOnScreen";
 import useMediaQuery from "hooks/useMediaQuery";
 import useWindowSize from "hooks/useWindowSize";
+import useGeoLocation from "hooks/useGeoLocation";
 import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
@@ -28,6 +29,7 @@ export {
     useOnScreen,
     useMediaQuery,
     useWindowSize,
+    useGeoLocation,
     useLocalStorage,
     useUpdateLogger,
     useUpdateEffect,
