@@ -8,6 +8,7 @@ import LocalStorageHook from "components/LocalStorageHook";
 import TimeoutComponent from "components/TimeoutComponent";
 import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
+import OnScreenComponent from "components/OnScreenComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import EventListenerComponent from "components/EventListenerComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
@@ -25,6 +26,7 @@ export {
     StorageComponent,
     DebounceComponent,
     PreviousComponent,
+    OnScreenComponent,
     UpdateEffectComponent,
     EventListenerComponent,
     StateWithHistoryComponent,

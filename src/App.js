@@ -1,7 +1,16 @@
 import {
-    ArrayComponent, AsyncComponent,
-    DebounceComponent, DeepCompareEffectComponent, EventListenerComponent, FetchComponent,
-    LocalStorageHook, PreviousComponent, ScriptComponent, StateWithHistoryComponent, StorageComponent,
+    ArrayComponent,
+    AsyncComponent,
+    DebounceComponent,
+    DeepCompareEffectComponent,
+    EventListenerComponent,
+    FetchComponent,
+    LocalStorageHook,
+    OnScreenComponent,
+    PreviousComponent,
+    ScriptComponent,
+    StateWithHistoryComponent,
+    StorageComponent,
     TimeoutComponent,
     ToggleComponent,
     UpdateEffectComponent,
@@ -25,7 +34,8 @@ function App() {
             {/*<FetchComponent/>*/}
             {/*<ScriptComponent/>*/}
             {/*<DeepCompareEffectComponent/>*/}
-            <EventListenerComponent/>
+            {/*<EventListenerComponent/>*/}
+            <OnScreenComponent/>
         </div>
     );
 }
