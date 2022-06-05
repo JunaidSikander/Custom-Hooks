@@ -1,6 +1,6 @@
 import {
     ArrayComponent,
-    AsyncComponent,
+    AsyncComponent, ClickOutsideComponent,
     DebounceComponent,
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
@@ -41,7 +41,8 @@ function App() {
             {/*<GeoLocationComponent/>*/}
             {/*<StateWithValidationComponent/>*/}
             {/*<SizeComponent/>*/}
-            <EffectOnceComponent/>
+            {/*<EffectOnceComponent/>*/}
+            <ClickOutsideComponent/>
         </div>
     );
 }

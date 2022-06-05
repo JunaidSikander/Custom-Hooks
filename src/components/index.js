@@ -15,6 +15,7 @@ import MediaQueryComponent from "components/MediaQueryComponent";
 import EffectOnceComponent from "components/EffectOnceComponent";
 import GeoLocationComponent from "components/GeoLocationComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
+import ClickOutsideComponent from "components/ClickOutsideComponent";
 import EventListenerComponent from "components/EventListenerComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
@@ -38,6 +39,7 @@ export {
     EffectOnceComponent,
     GeoLocationComponent,
     UpdateEffectComponent,
+    ClickOutsideComponent,
     EventListenerComponent,
     StateWithHistoryComponent,
     DeepCompareEffectComponent,

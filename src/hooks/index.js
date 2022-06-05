@@ -15,11 +15,11 @@ import useGeoLocation from "hooks/useGeoLocation";
 import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
+import useClickOutside from "hooks/useClickOutside";
 import useEventListener from "hooks/useEventListener";
 import useStateWithHistory from "hooks/useStateWithHistory";
 import useDeepCompareEffect from "hooks/useDeepCompareEffect";
 import useStateWithValidation from "hooks/useStateWithValidation";
-
 export {
     useSize,
     useArray,
@@ -38,6 +38,7 @@ export {
     useLocalStorage,
     useUpdateLogger,
     useUpdateEffect,
+    useClickOutside,
     useEventListener,
     useStateWithHistory,
     useDeepCompareEffect,
