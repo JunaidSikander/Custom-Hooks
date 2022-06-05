@@ -12,7 +12,7 @@ import {
     StateWithHistoryComponent, StateWithValidationComponent,
     StorageComponent,
     TimeoutComponent,
-    ToggleComponent,
+    ToggleComponent, TranslationComponent,
     UpdateEffectComponent, WindowSizeComponent,
 } from "components";
 
@@ -45,7 +45,8 @@ function App() {
             {/*<ClickOutsideComponent/>*/}
             {/*<DarkModeComponent/>*/}
             {/*<CopyToClipboard/>*/}
-            <CookieComponent/>
+            {/*<CookieComponent/>*/}
+            <TranslationComponent/>
         </div>
     );
 }

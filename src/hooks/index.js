@@ -14,6 +14,7 @@ import useMediaQuery from "hooks/useMediaQuery";
 import useWindowSize from "hooks/useWindowSize";
 import useEffectOnce from "hooks/useEffectOnce";
 import useGeoLocation from "hooks/useGeoLocation";
+import useTranslation from "hooks/useTranslation";
 import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
@@ -23,6 +24,7 @@ import useCopyToClipboard from "hooks/useCopyToClipboard";
 import useStateWithHistory from "hooks/useStateWithHistory";
 import useDeepCompareEffect from "hooks/useDeepCompareEffect";
 import useStateWithValidation from "hooks/useStateWithValidation";
+
 export {
     useSize,
     useArray,
@@ -40,6 +42,7 @@ export {
     useWindowSize,
     useEffectOnce,
     useGeoLocation,
+    useTranslation,
     useLocalStorage,
     useUpdateLogger,
     useUpdateEffect,

@@ -17,6 +17,7 @@ import WindowSizeComponent from "components/WindowSizeComponent";
 import MediaQueryComponent from "components/MediaQueryComponent";
 import EffectOnceComponent from "components/EffectOnceComponent";
 import GeoLocationComponent from "components/GeoLocationComponent";
+import TranslationComponent from "components/TranslationComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import ClickOutsideComponent from "components/ClickOutsideComponent";
 import EventListenerComponent from "components/EventListenerComponent";
@@ -44,6 +45,7 @@ export {
     MediaQueryComponent,
     EffectOnceComponent,
     GeoLocationComponent,
+    TranslationComponent,
     UpdateEffectComponent,
     ClickOutsideComponent,
     EventListenerComponent,
