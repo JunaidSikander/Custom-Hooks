@@ -9,6 +9,7 @@ import StorageComponent from "components/StorageComponent";
 import LocalStorageHook from "components/LocalStorageHook";
 import TimeoutComponent from "components/TimeoutComponent";
 import CookieComponent from "components/CookiesComponent";
+import HoveredComponent from "components/HoveredComponent";
 import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import OnScreenComponent from "components/OnScreenComponent";
@@ -27,7 +28,6 @@ import DebugInformationComponent from "components/DebugInformationComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 import StateWithValidationComponent from "components/StateWithValidationComponent";
-
 export {
     SizeComponent,
     AsyncComponent,
@@ -40,6 +40,7 @@ export {
     TimeoutComponent,
     StorageComponent,
     CookieComponent,
+    HoveredComponent,
     DebounceComponent,
     PreviousComponent,
     OnScreenComponent,

@@ -1,6 +1,7 @@
 import useSize from "hooks/useSize";
 import useArray from "hooks/useArray";
 import useAsync from "hooks/useAsync";
+import useHover from "hooks/useHover";
 import useFetch from "hooks/useFetch";
 import useToggle from "hooks/useToggle";
 import useScript from "hooks/useScript";
@@ -32,6 +33,7 @@ export {
     useSize,
     useArray,
     useAsync,
+    useHover,
     useFetch,
     useToggle,
     useScript,

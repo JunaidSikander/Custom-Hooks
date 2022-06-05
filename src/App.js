@@ -4,7 +4,7 @@ import {
     DebounceComponent, DebugInformationComponent,
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
-    FetchComponent, GeoLocationComponent,
+    FetchComponent, GeoLocationComponent, HoveredComponent,
     LocalStorageHook, MediaQueryComponent, OnlineStatusComponent,
     OnScreenComponent,
     PreviousComponent, RenderCountComponent,
@@ -49,7 +49,8 @@ function App() {
             {/*<TranslationComponent/>*/}
             {/*<OnlineStatusComponent/>*/}
             {/*<RenderCountComponent/>*/}
-            <DebugInformationComponent/>
+            {/*<DebugInformationComponent/>*/}
+            <HoveredComponent/>
         </div>
     );
 }
