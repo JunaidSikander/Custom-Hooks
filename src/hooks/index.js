@@ -4,6 +4,7 @@ import useAsync from "hooks/useAsync";
 import useFetch from "hooks/useFetch";
 import useToggle from "hooks/useToggle";
 import useScript from "hooks/useScript";
+import useCookie from "hooks/useCookie";
 import useTimeout from "hooks/useTimeout";
 import useDebounce from "hooks/useDebounce";
 import usePrevious from "hooks/usePrevious";
@@ -29,6 +30,7 @@ export {
     useFetch,
     useToggle,
     useScript,
+    useCookie,
     useTimeout,
     useDebounce,
     usePrevious,

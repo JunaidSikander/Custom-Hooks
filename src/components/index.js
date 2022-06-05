@@ -8,6 +8,7 @@ import CopyToClipboard from "components/CopyToClipboard";
 import StorageComponent from "components/StorageComponent";
 import LocalStorageHook from "components/LocalStorageHook";
 import TimeoutComponent from "components/TimeoutComponent";
+import CookieComponent from "components/CookiesComponent";
 import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import OnScreenComponent from "components/OnScreenComponent";
@@ -34,6 +35,7 @@ export {
     LocalStorageHook,
     TimeoutComponent,
     StorageComponent,
+    CookieComponent,
     DebounceComponent,
     PreviousComponent,
     OnScreenComponent,
