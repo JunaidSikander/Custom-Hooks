@@ -19,12 +19,12 @@ import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
 import useClickOutside from "hooks/useClickOutside";
+import useOnlineStatus from "hooks/useOnlineStatus";
 import useEventListener from "hooks/useEventListener";
 import useCopyToClipboard from "hooks/useCopyToClipboard";
 import useStateWithHistory from "hooks/useStateWithHistory";
 import useDeepCompareEffect from "hooks/useDeepCompareEffect";
 import useStateWithValidation from "hooks/useStateWithValidation";
-
 export {
     useSize,
     useArray,
@@ -47,6 +47,7 @@ export {
     useUpdateLogger,
     useUpdateEffect,
     useClickOutside,
+    useOnlineStatus,
     useEventListener,
     useCopyToClipboard,
     useStateWithHistory,

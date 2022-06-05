@@ -18,13 +18,13 @@ import MediaQueryComponent from "components/MediaQueryComponent";
 import EffectOnceComponent from "components/EffectOnceComponent";
 import GeoLocationComponent from "components/GeoLocationComponent";
 import TranslationComponent from "components/TranslationComponent";
+import OnlineStatusComponent from "components/OnlineStatusComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import ClickOutsideComponent from "components/ClickOutsideComponent";
 import EventListenerComponent from "components/EventListenerComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 import StateWithValidationComponent from "components/StateWithValidationComponent";
-
 export {
     SizeComponent,
     AsyncComponent,
@@ -46,6 +46,7 @@ export {
     EffectOnceComponent,
     GeoLocationComponent,
     TranslationComponent,
+    OnlineStatusComponent,
     UpdateEffectComponent,
     ClickOutsideComponent,
     EventListenerComponent,

@@ -5,7 +5,7 @@ import {
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
     FetchComponent, GeoLocationComponent,
-    LocalStorageHook, MediaQueryComponent,
+    LocalStorageHook, MediaQueryComponent, OnlineStatusComponent,
     OnScreenComponent,
     PreviousComponent,
     ScriptComponent, SizeComponent,
@@ -46,7 +46,8 @@ function App() {
             {/*<DarkModeComponent/>*/}
             {/*<CopyToClipboard/>*/}
             {/*<CookieComponent/>*/}
-            <TranslationComponent/>
+            {/*<TranslationComponent/>*/}
+            <OnlineStatusComponent/>
         </div>
     );
 }
