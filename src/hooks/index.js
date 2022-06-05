@@ -15,6 +15,7 @@ import useWindowSize from "hooks/useWindowSize";
 import useEffectOnce from "hooks/useEffectOnce";
 import useGeoLocation from "hooks/useGeoLocation";
 import useTranslation from "hooks/useTranslation";
+import useRenderCount from "hooks/useRenderCount";
 import useLocalStorage from "hooks/useLocalStorage";
 import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
@@ -43,6 +44,7 @@ export {
     useEffectOnce,
     useGeoLocation,
     useTranslation,
+    useRenderCount,
     useLocalStorage,
     useUpdateLogger,
     useUpdateEffect,

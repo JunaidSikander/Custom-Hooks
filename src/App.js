@@ -7,7 +7,7 @@ import {
     FetchComponent, GeoLocationComponent,
     LocalStorageHook, MediaQueryComponent, OnlineStatusComponent,
     OnScreenComponent,
-    PreviousComponent,
+    PreviousComponent, RenderCountComponent,
     ScriptComponent, SizeComponent,
     StateWithHistoryComponent, StateWithValidationComponent,
     StorageComponent,
@@ -47,7 +47,8 @@ function App() {
             {/*<CopyToClipboard/>*/}
             {/*<CookieComponent/>*/}
             {/*<TranslationComponent/>*/}
-            <OnlineStatusComponent/>
+            {/*<OnlineStatusComponent/>*/}
+            <RenderCountComponent/>
         </div>
     );
 }

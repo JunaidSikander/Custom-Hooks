@@ -18,6 +18,7 @@ import MediaQueryComponent from "components/MediaQueryComponent";
 import EffectOnceComponent from "components/EffectOnceComponent";
 import GeoLocationComponent from "components/GeoLocationComponent";
 import TranslationComponent from "components/TranslationComponent";
+import RenderCountComponent from "components/RenderCountComponent";
 import OnlineStatusComponent from "components/OnlineStatusComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import ClickOutsideComponent from "components/ClickOutsideComponent";
@@ -46,6 +47,7 @@ export {
     EffectOnceComponent,
     GeoLocationComponent,
     TranslationComponent,
+    RenderCountComponent,
     OnlineStatusComponent,
     UpdateEffectComponent,
     ClickOutsideComponent,
