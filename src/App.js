@@ -5,7 +5,7 @@ import {
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
     FetchComponent, GeoLocationComponent, HoveredComponent,
-    LocalStorageHook, MediaQueryComponent, OnlineStatusComponent,
+    LocalStorageHook, LongPressComponent, MediaQueryComponent, OnlineStatusComponent,
     OnScreenComponent,
     PreviousComponent, RenderCountComponent,
     ScriptComponent, SizeComponent,
@@ -50,7 +50,8 @@ function App() {
             {/*<OnlineStatusComponent/>*/}
             {/*<RenderCountComponent/>*/}
             {/*<DebugInformationComponent/>*/}
-            <HoveredComponent/>
+            {/*<HoveredComponent/>*/}
+            <LongPressComponent/>
         </div>
     );
 }

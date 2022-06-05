@@ -11,6 +11,7 @@ import useDebounce from "hooks/useDebounce";
 import usePrevious from "hooks/usePrevious";
 import useOnScreen from "hooks/useOnScreen";
 import useDarkMode from "hooks/useDarkMode";
+import useLongPress from "hooks/useLongPress";
 import useMediaQuery from "hooks/useMediaQuery";
 import useWindowSize from "hooks/useWindowSize";
 import useEffectOnce from "hooks/useEffectOnce";
@@ -43,6 +44,7 @@ export {
     usePrevious,
     useOnScreen,
     useDarkMode,
+    useLongPress,
     useMediaQuery,
     useWindowSize,
     useEffectOnce,
