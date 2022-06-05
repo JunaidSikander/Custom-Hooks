@@ -1,7 +1,7 @@
 import {
     ArrayComponent,
     AsyncComponent, ClickOutsideComponent, CookieComponent, CopyToClipboard, DarkModeComponent,
-    DebounceComponent,
+    DebounceComponent, DebugInformationComponent,
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
     FetchComponent, GeoLocationComponent,
@@ -48,7 +48,8 @@ function App() {
             {/*<CookieComponent/>*/}
             {/*<TranslationComponent/>*/}
             {/*<OnlineStatusComponent/>*/}
-            <RenderCountComponent/>
+            {/*<RenderCountComponent/>*/}
+            <DebugInformationComponent/>
         </div>
     );
 }

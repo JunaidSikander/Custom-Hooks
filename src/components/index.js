@@ -23,9 +23,11 @@ import OnlineStatusComponent from "components/OnlineStatusComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import ClickOutsideComponent from "components/ClickOutsideComponent";
 import EventListenerComponent from "components/EventListenerComponent";
+import DebugInformationComponent from "components/DebugInformationComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 import StateWithValidationComponent from "components/StateWithValidationComponent";
+
 export {
     SizeComponent,
     AsyncComponent,
@@ -52,6 +54,7 @@ export {
     UpdateEffectComponent,
     ClickOutsideComponent,
     EventListenerComponent,
+    DebugInformationComponent,
     StateWithHistoryComponent,
     DeepCompareEffectComponent,
     StateWithValidationComponent
