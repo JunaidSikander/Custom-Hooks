@@ -12,6 +12,7 @@ import PreviousComponent from "components/PreviousComponent";
 import OnScreenComponent from "components/OnScreenComponent";
 import WindowSizeComponent from "components/WindowSizeComponent";
 import MediaQueryComponent from "components/MediaQueryComponent";
+import EffectOnceComponent from "components/EffectOnceComponent";
 import GeoLocationComponent from "components/GeoLocationComponent";
 import UpdateEffectComponent from "components/UpdateEffectComponent";
 import EventListenerComponent from "components/EventListenerComponent";
@@ -34,6 +35,7 @@ export {
     OnScreenComponent,
     WindowSizeComponent,
     MediaQueryComponent,
+    EffectOnceComponent,
     GeoLocationComponent,
     UpdateEffectComponent,
     EventListenerComponent,

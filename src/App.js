@@ -2,7 +2,7 @@ import {
     ArrayComponent,
     AsyncComponent,
     DebounceComponent,
-    DeepCompareEffectComponent,
+    DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
     FetchComponent, GeoLocationComponent,
     LocalStorageHook, MediaQueryComponent,
@@ -40,7 +40,8 @@ function App() {
             {/*<MediaQueryComponent/>*/}
             {/*<GeoLocationComponent/>*/}
             {/*<StateWithValidationComponent/>*/}
-            <SizeComponent/>
+            {/*<SizeComponent/>*/}
+            <EffectOnceComponent/>
         </div>
     );
 }
