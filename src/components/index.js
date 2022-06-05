@@ -10,6 +10,7 @@ import TimeoutComponent from "components/TimeoutComponent";
 import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import OnScreenComponent from "components/OnScreenComponent";
+import DarkModeComponent from "components/DarkModeComponent";
 import WindowSizeComponent from "components/WindowSizeComponent";
 import MediaQueryComponent from "components/MediaQueryComponent";
 import EffectOnceComponent from "components/EffectOnceComponent";
@@ -34,6 +35,7 @@ export {
     DebounceComponent,
     PreviousComponent,
     OnScreenComponent,
+    DarkModeComponent,
     WindowSizeComponent,
     MediaQueryComponent,
     EffectOnceComponent,

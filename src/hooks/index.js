@@ -8,6 +8,7 @@ import useTimeout from "hooks/useTimeout";
 import useDebounce from "hooks/useDebounce";
 import usePrevious from "hooks/usePrevious";
 import useOnScreen from "hooks/useOnScreen";
+import useDarkMode from "hooks/useDarkMode";
 import useMediaQuery from "hooks/useMediaQuery";
 import useWindowSize from "hooks/useWindowSize";
 import useEffectOnce from "hooks/useEffectOnce";
@@ -31,6 +32,7 @@ export {
     useDebounce,
     usePrevious,
     useOnScreen,
+    useDarkMode,
     useMediaQuery,
     useWindowSize,
     useEffectOnce,

@@ -1,6 +1,6 @@
 import {
     ArrayComponent,
-    AsyncComponent, ClickOutsideComponent,
+    AsyncComponent, ClickOutsideComponent, DarkModeComponent,
     DebounceComponent,
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
@@ -42,7 +42,8 @@ function App() {
             {/*<StateWithValidationComponent/>*/}
             {/*<SizeComponent/>*/}
             {/*<EffectOnceComponent/>*/}
-            <ClickOutsideComponent/>
+            {/*<ClickOutsideComponent/>*/}
+            <DarkModeComponent/>
         </div>
     );
 }
