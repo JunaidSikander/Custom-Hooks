@@ -4,6 +4,7 @@ import FetchComponent from "components/FetchComponent";
 import ArrayComponent from "components/ArrayComponent";
 import ToggleComponent from "components/ToggleComponent";
 import ScriptComponent from "components/ScriptComponent";
+import CopyToClipboard from "components/CopyToClipboard";
 import StorageComponent from "components/StorageComponent";
 import LocalStorageHook from "components/LocalStorageHook";
 import TimeoutComponent from "components/TimeoutComponent";
@@ -29,6 +30,7 @@ export {
     FetchComponent,
     ToggleComponent,
     ScriptComponent,
+    CopyToClipboard,
     LocalStorageHook,
     TimeoutComponent,
     StorageComponent,

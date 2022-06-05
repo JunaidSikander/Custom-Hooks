@@ -18,6 +18,7 @@ import useUpdateLogger from "hooks/useUpdateLogger";
 import useUpdateEffect from "hooks/useUpdateEffect";
 import useClickOutside from "hooks/useClickOutside";
 import useEventListener from "hooks/useEventListener";
+import useCopyToClipboard from "hooks/useCopyToClipboard";
 import useStateWithHistory from "hooks/useStateWithHistory";
 import useDeepCompareEffect from "hooks/useDeepCompareEffect";
 import useStateWithValidation from "hooks/useStateWithValidation";
@@ -42,6 +43,7 @@ export {
     useUpdateEffect,
     useClickOutside,
     useEventListener,
+    useCopyToClipboard,
     useStateWithHistory,
     useDeepCompareEffect,
     useStateWithValidation

@@ -1,6 +1,6 @@
 import {
     ArrayComponent,
-    AsyncComponent, ClickOutsideComponent, DarkModeComponent,
+    AsyncComponent, ClickOutsideComponent, CopyToClipboard, DarkModeComponent,
     DebounceComponent,
     DeepCompareEffectComponent, EffectOnceComponent,
     EventListenerComponent,
@@ -43,7 +43,8 @@ function App() {
             {/*<SizeComponent/>*/}
             {/*<EffectOnceComponent/>*/}
             {/*<ClickOutsideComponent/>*/}
-            <DarkModeComponent/>
+            {/*<DarkModeComponent/>*/}
+            <CopyToClipboard/>
         </div>
     );
 }
