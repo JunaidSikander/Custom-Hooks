@@ -1,24 +1,55 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 
 const getSavedValue = (key, initialValue) => {
-    const savedValue = JSON.parse(localStorage.getItem(key));
-    if (savedValue) return savedValue;
+    /*
+    Get from local storage by key
+    Parse stored json or if none return initialValue
+    */
+    try {
+        const savedValue = JSON.parse(localStorage.getItem(key));
+        if (savedValue) return savedValue;
 
-    if (initialValue instanceof Function) return initialValue();
+        if (initialValue instanceof Function) return initialValue();
 
-    return initialValue
+        return initialValue
+    } catch (error) {
+        // If error also return initialValue
+        console.log(error);
+        return initialValue;
+    }
 };
 
 const useLocalStorage = (key, initialValue) => {
-    const [value, setValue] = useState(() => {
+    /*
+    State to store our value
+    Pass initial state function to useState so logic is only executed once
+    */
+    const [storedValue, setStoredValue] = useState(() => {
+        if (typeof window === "undefined")
+            return initialValue;
         return getSavedValue(key, initialValue)
     });
 
-    useEffect(() => {
-        localStorage.setItem(key, JSON.stringify(value))
-    }, [value, key])
+    // Return a wrapped version of useState's setter function that ...
+    // ... persists the new value to localStorage.
+    const setValue = (value) => {
+        try {
+            // Allow value to be a function so we have same API as useState
+            const valueToStore =
+                value instanceof Function ? value(storedValue) : value;
+            // Save state
+            setStoredValue(valueToStore);
+            // Save to local storage
+            if (typeof window !== "undefined") {
+                window.localStorage.setItem(key, JSON.stringify(valueToStore));
+            }
+        } catch (error) {
+            // A more advanced implementation would handle the error case
+            console.log(error);
+        }
+    }
 
-    return [value, setValue];
+    return [storedValue, setValue];
 }
 
 export default useLocalStorage
