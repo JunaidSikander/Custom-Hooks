@@ -7,6 +7,7 @@ import useToggle from "hooks/useToggle";
 import useScript from "hooks/useScript";
 import useCookie from "hooks/useCookie";
 import useTimeout from "hooks/useTimeout";
+import useScript2 from "hooks/useScript2";
 import useDebounce from "hooks/useDebounce";
 import usePrevious from "hooks/usePrevious";
 import useOnScreen from "hooks/useOnScreen";
@@ -42,6 +43,7 @@ export {
     useScript,
     useCookie,
     useTimeout,
+    useScript2,
     useDebounce,
     usePrevious,
     useOnScreen,

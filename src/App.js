@@ -33,7 +33,7 @@ function App() {
             {/*<StorageComponent/>*/}
             {/*<AsyncComponent/>*/}
             {/*<FetchComponent/>*/}
-            {/*<ScriptComponent/>*/}
+            <ScriptComponent/>
             {/*<DeepCompareEffectComponent/>*/}
             {/*<EventListenerComponent/>*/}
             {/*<OnScreenComponent/>*/}
@@ -53,7 +53,7 @@ function App() {
             {/*<DebugInformationComponent/>*/}
             {/*<HoveredComponent/>*/}
             {/*<LongPressComponent/>*/}
-            <AnimationComponent/>
+            {/*<AnimationComponent/>*/}
         </div>
     );
 }
