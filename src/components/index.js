@@ -14,6 +14,7 @@ import DebounceComponent from "components/DebounceComponent";
 import PreviousComponent from "components/PreviousComponent";
 import OnScreenComponent from "components/OnScreenComponent";
 import DarkModeComponent from "components/DarkModeComponent";
+import AnimationComponent from "components/AnimationComponent";
 import LongPressComponent from "components/LongPressComponent";
 import WindowSizeComponent from "components/WindowSizeComponent";
 import MediaQueryComponent from "components/MediaQueryComponent";
@@ -29,6 +30,7 @@ import DebugInformationComponent from "components/DebugInformationComponent";
 import StateWithHistoryComponent from "components/StateWithHistoryComponent";
 import DeepCompareEffectComponent from "components/DeepCompareEffectComponent";
 import StateWithValidationComponent from "components/StateWithValidationComponent";
+
 export {
     SizeComponent,
     AsyncComponent,
@@ -46,6 +48,7 @@ export {
     PreviousComponent,
     OnScreenComponent,
     DarkModeComponent,
+    AnimationComponent,
     LongPressComponent,
     WindowSizeComponent,
     MediaQueryComponent,

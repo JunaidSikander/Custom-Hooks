@@ -1,4 +1,5 @@
 import {
+    AnimationComponent,
     ArrayComponent,
     AsyncComponent, ClickOutsideComponent, CookieComponent, CopyToClipboard, DarkModeComponent,
     DebounceComponent, DebugInformationComponent,
@@ -51,7 +52,8 @@ function App() {
             {/*<RenderCountComponent/>*/}
             {/*<DebugInformationComponent/>*/}
             {/*<HoveredComponent/>*/}
-            <LongPressComponent/>
+            {/*<LongPressComponent/>*/}
+            <AnimationComponent/>
         </div>
     );
 }

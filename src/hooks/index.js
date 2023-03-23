@@ -11,6 +11,7 @@ import useDebounce from "hooks/useDebounce";
 import usePrevious from "hooks/usePrevious";
 import useOnScreen from "hooks/useOnScreen";
 import useDarkMode from "hooks/useDarkMode";
+import useAnimation from "hooks/useAnimation";
 import useLongPress from "hooks/useLongPress";
 import useMediaQuery from "hooks/useMediaQuery";
 import useWindowSize from "hooks/useWindowSize";
@@ -24,6 +25,7 @@ import useUpdateEffect from "hooks/useUpdateEffect";
 import useClickOutside from "hooks/useClickOutside";
 import useOnlineStatus from "hooks/useOnlineStatus";
 import useEventListener from "hooks/useEventListener";
+import useAnimationTimer from "hooks/useAnimationTimer";
 import useCopyToClipboard from "hooks/useCopyToClipboard";
 import useDebugInformation from "hooks/useDebugInformation";
 import useStateWithHistory from "hooks/useStateWithHistory";
@@ -44,6 +46,7 @@ export {
     usePrevious,
     useOnScreen,
     useDarkMode,
+    useAnimation,
     useLongPress,
     useMediaQuery,
     useWindowSize,
@@ -57,6 +60,7 @@ export {
     useClickOutside,
     useOnlineStatus,
     useEventListener,
+    useAnimationTimer,
     useCopyToClipboard,
     useDebugInformation,
     useStateWithHistory,
